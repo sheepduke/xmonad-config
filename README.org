@@ -1,0 +1,16 @@
+
+* Introduction
+
+Configuration for XMonad.
+
+Use the following command to build it at the first time:
+
+#+BEGIN_SRC bash
+stack install
+#+END_SRC
+
+Use the following command to rebuild and restart current XMonad instance.
+
+#+BEGIN_SRC
+xmonad --recompile && xmonad --restart
+#+END_SRC
